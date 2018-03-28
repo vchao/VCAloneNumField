@@ -25,12 +25,13 @@
         self.numField.backgroundColor = [UIColor whiteColor];
         self.numField.secureTextEntry = NO;
         self.numField.numLength = 4;
-        self.numField.inputingColor = [UIColor colorWithRed:247/255.f green:237/255.f blue:200/255.f alpha:1.0];
         [self.view addSubview:self.numField];
         
         [self.numField autoBecomeFirstResponder];
     }
 }
+
+#pragma mark - VCAloneNumFieldDelegate
 
 - (void)numField:(VCAloneNumField *)numField inputNum:(NSString *)num
 {

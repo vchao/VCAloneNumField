@@ -144,6 +144,7 @@
         _gridLineColor = [UIColor blackColor];
         _dotWidth = 12.0f;
         _dotColor = [UIColor blackColor];
+        _inputingColor = [UIColor colorWithRed:247/255.f green:237/255.f blue:200/255.f alpha:1.0];
         _secureTextEntry = YES;
         _inputCount = 0;
         _font = [UIFont systemFontOfSize:15];
